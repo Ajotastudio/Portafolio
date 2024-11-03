@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/Grid2';
 import Pagina6 from "../../img/PAGINA 6.jpg";
 import Pagina7 from "../../img/PAGINA 7.jpg"
 import Pagina8 from "../../img/"

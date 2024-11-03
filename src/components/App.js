@@ -9,7 +9,7 @@ function App() {
     <Grid container style={{ width: '100vw', margin: 0, padding: 0 }}>
       <Header />
       <Presentación />
-      <Quehacemos />
+      {/* <Quehacemos /> */}
     </Grid>
   );
 }
