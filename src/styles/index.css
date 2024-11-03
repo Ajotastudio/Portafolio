@@ -209,10 +209,17 @@ header {
 
   /*QUE HACEMOS*/
 
-.img-qh {
-  width: 20%;
-  height: 30%;
+.que-hacemos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.titles {
+  margin: 2rem 0;
+}
+
 
 
 
