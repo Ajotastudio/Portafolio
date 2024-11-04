@@ -218,6 +218,66 @@ header {
 
 .titles {
   margin: 2rem 0;
+  text-align: center;
+}
+
+/*CAROUSEL*/
+
+.c-qh {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 15rem;
+  margin: 0;
+}
+
+.col-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-c {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.txt-c p, .txt-c h2 {
+  color: var(--fith-cl);
+}
+
+.q-h-foto {
+  width: 25rem;
+  height: 60%;
+  padding: 0;
+  margin: 0;
+  border: solid 5px var(--secondary-bg);
+  box-shadow: 0px 2px 2px var(--tertiary-bg) ;
+  border-radius: 50px;
+}
+
+
+/* Oculta los items no activos */
+.carousel-item {
+  display: none;
+  height: 30rem !important;
+}
+
+/* Solo muestra el item activo */
+.carousel-item.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

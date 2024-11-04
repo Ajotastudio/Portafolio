@@ -1,14 +1,15 @@
 import React from "react";
 import { Grid } from "@mui/material";
+import Carouselqh from "./templates/Carouselqh";
 
 function Quehacemos() {
   return (
     <Grid container className="que-hacemos-container">
-      <Grid item>
-        <h1 className="titles">Que hacemos</h1>
+      <Grid item xs={12}>
+        <h1 className="titles">¿Qué hacemos?</h1>
       </Grid>
-      <Grid>
-        
+      <Grid item xs={12}>
+            <Carouselqh/>
       </Grid>
     </Grid>
   );
